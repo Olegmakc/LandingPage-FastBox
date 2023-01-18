@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230118084938">
+
+	<title>FastBox</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__wrapper lock-padding">
+		<div class="header__container">
+			<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" data-goto="#home" class="menu__link">Home</a></li>
+						<li class="menu__item"><a href="#" data-goto=".main-track-form" class="menu__link">Tracking</a></li>
+						<li class="menu__item"><a href="#" data-goto="#how-work" class="menu__link">Shipping</a></li>
+						<li class="menu__item"><a href="#" data-goto="#follow" class="menu__link">Locations</a></li>
+						<li class="menu__item"><a href="#" data-goto="#price" class="menu__link">Price</a></li>
+						<li class="menu__item"><a href="#" data-goto="#reviews" class="menu__link">Reviews</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__actions actions-header">
+				<button type="button" data-da=".menu__body,479.98" class="actions-header__signin">Signin</button>
+				<button type="button" class="actions-header__register button">Register</button>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section id="home" class="page__main main-block">
+				<div class="main-block__container">
+					<div class="main-block__content">
+						<h1 class="main-block__title title title_s90">Largest and reliable courier service
+							<div class="main-block__title-decor"><span>in your city</span></div>
+						</h1>
+						<div class="main-block__text text">
+							<p>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<form action="#" method="get" class="main-block__track-form main-track-form">
+							<div class="main-track-form__row">
+								<input type="text" autocomplete="off" class="main-track-form__input" data-error="Please enter correct tracking number" data-required="min-length:6" name="form[]" placeholder="Enter Tracking Number">
+							</div>
+							<button type="submit" class="main-track-form__submit button">Check</button>
+						</form>
+					</div>
+				</div>
+				<div class="main-block__images images-main-block">
+					<div class="images-main-block__item images-main-block__item_bicycle">
+						<div data-mouse-parallax data-prlx-cx="50" data-prlx-cy="1000" class="images-main-block__item-inner">
+							<img src="img/hero-block/bicycle.svg" fetchpriority="high" alt="Bicycle">
+						</div>
+					</div>
+					<div data-mouse-parallax data-prlx-cx="5" data-prlx-cy="5" class="images-main-block__item images-main-block__item_yellow-star">
+						<img src="img/icons/yellow-star.svg" alt="Image">
+					</div>
+					<div data-mouse-parallax data-prlx-cx="5" data-prlx-cy="5" data-prlx-dyr="-1" data-prlx-dxr="-1" class="images-main-block__item images-main-block__item_green-star">
+						<img src="img/icons/green-star.svg" alt="Image">
+					</div>
+				</div>
+			</section>
+			<div class="page__partners partners">
+				<div data-animate="0.7,false" class="partners__container">
+					<div class="partners__item">
+						<img src="img/partners/airtable.svg" alt="Airtable">
+					</div>
+					<div class="partners__item">
+						<img src="img/partners/sketch.svg" alt="Sketch">
+					</div>
+					<div class="partners__item">
+						<img src="img/partners/dribbble.svg" alt="Dribbble">
+					</div>
+					<div class="partners__item">
+						<img src="img/partners/slack.svg" alt="Slack">
+					</div>
+					<div class="partners__item">
+						<img src="img/partners/livechat.svg" alt="Livechat">
+					</div>
+					<div class="partners__item">
+						<img src="img/partners/gitlab.svg" alt="Gitlab">
+					</div>
+				</div>
+			</div>
+			<section id="how-work" class="page__how-work how-work">
+				<div class="how-work__container">
+					<div data-animate="0.7,false" class="how-work__header header-title">
+						<h2 class="how-work__title title">How Fast box works</h2>
+						<div class="how-work__text text">
+							<p>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</div>
+					<div class="how-work__body">
+						<div data-animate="0.7,false" class="how-work__item item-how-work">
+							<div class="item-how-work__icon">
+								<img src="img/how-work/calendar.svg" alt="Image">
+							</div>
+							<div class="item-how-work__body">
+								<div class="item-how-work__step">Step 1</div>
+								<h3 class="item-how-work__title">Booking</h3>
+								<div class="item-how-work__text">
+									<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<!-- <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> -->
+								</div>
+							</div>
+						</div>
+						<div data-animate="0.7,false" class="how-work__item item-how-work">
+							<div class="item-how-work__icon">
+								<img src="img/how-work/box.svg" alt="Image">
+							</div>
+							<div class="item-how-work__body">
+								<div class="item-how-work__step">Step 2</div>
+								<h3 class="item-how-work__title">Packing</h3>
+								<div class="item-how-work__text">
+									<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								</div>
+							</div>
+						</div>
+						<div data-animate="0.7,false" class="how-work__item item-how-work">
+							<div class="item-how-work__icon">
+								<img src="img/how-work/workspace.svg" alt="Image">
+							</div>
+							<div class="item-how-work__body">
+								<div class="item-how-work__step">Step 3</div>
+								<h3 class="item-how-work__title">Transportation</h3>
+								<div class="item-how-work__text">
+									<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								</div>
+							</div>
+						</div>
+						<div data-animate="0.7,false" class="how-work__item item-how-work">
+							<div class="item-how-work__icon">
+								<img src="img/how-work/plane_paper.svg" alt="Image">
+							</div>
+							<div class="item-how-work__body">
+								<div class="item-how-work__step">Step 4</div>
+								<h3 class="item-how-work__title">Delivery</h3>
+								<div class="item-how-work__text">
+									<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="how-work__images images-how-work">
+					<div data-mouse-parallax data-prlx-cx="5" data-prlx-cy="5" class="images-how-work__item images-how-work__item_yellow-star">
+						<img src="img/icons/yellow-star.svg" alt="Image">
+					</div>
+					<div data-mouse-parallax data-prlx-cx="5" data-prlx-cy="5" data-prlx-dyr="-1" data-prlx-dxr="-1" class="images-how-work__item images-how-work__item_green-star">
+						<img src="img/icons/green-star.svg" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section data-animate="0.7,false" class="page__about about">
+				<div class="about__container">
+					<div data-animate="0.6,false" class="about__image">
+						<div data-mouse-parallax data-prlx-cx="70" data-prlx-cy="60" data-prlx-dxr="-1" data-prlx-dyr="-1" class="about__image-inner">
+							<img src="img/about/truck.svg" alt="Image">
+						</div>
+					</div>
+					<div data-animate="0.7,false" class="about__content">
+						<h2 class="about__title title">We Have the largest Network</h2>
+						<div class="about__text text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<a href="#" class="about__button button">Learn More</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__specialties specialties">
+				<div class="specialties__container">
+					<div data-animate="0.7,false" class="specialties__header header-title">
+						<h2 class="specialties__title title">Our Specialties</h2>
+						<div class="specialties__text text">
+							<p>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</div>
+					<div class="specialties__items">
+						<div data-animate="0.8,false" class="specialties__item item-specialty">
+							<h3 class="item-specialty__title">Easy to order</h3>
+							<div class="item-specialty__text">
+								<p>Stacks is a production-ready library of stackable content blocks built in React Native</p>
+							</div>
+						</div>
+						<div data-animate="0.8,false" class="specialties__item item-specialty">
+							<h3 class="item-specialty__title">Cash on delivery </h3>
+							<div class="item-specialty__text">
+								<p>Stacks is a production-ready library of stackable content blocks built in React Native</p>
+							</div>
+						</div>
+						<div data-animate="0.8,false" class="specialties__item item-specialty">
+							<h3 class="item-specialty__title">Live tracking</h3>
+							<div class="item-specialty__text">
+								<p>Stacks is a production-ready library of stackable content blocks built in React Native</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="price" class="page__calculate-price calculate-price">
+				<div data-animate="0.7,false" class="calculate-price__container">
+					<div class="calculate-price__content">
+						<div class="calculate-price__body">
+							<h2 class="calculate-price__title title">Calculate your price</h2>
+							<div class="calculate-price__text text">
+								<p>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
+							</div>
+							<div class="calculate-price__image">
+								<div data-mouse-parallax data-prlx-cx="50" data-prlx-cy="50" class="calculate-price__image-inner">
+									<img src="img/calculate-price/image.svg" alt="Image">
+								</div>
+							</div>
+						</div>
+					</div>
+					<form action="#" method="get" class="calculate-price__form form-price">
+						<div class="form-price__row">
+							<label for="date" class="form-price__label form-label _icon-booking-date">Booking Date</label>
+							<div class="form-price__date-wrapper">
+								<input id="date" type="date" required name="date" class="form-price__date" placeholder="Enter Booking date">
+							</div>
+						</div>
+						<div class="form-price__row">
+							<label for="parcel" class="form-price__label form-label _icon-parcel">Type of Parcel</label>
+							<div data-select class="form-price__select">
+								<select name="parcel" id="parcel">
+									<option selected value="default">Select Parcel type</option>
+									<option value="2">Same Day Courier</option>
+									<option value="3">Overnight Shipping</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-price__row">
+							<label for="parcel" class="form-price__label form-label _icon-location">Destination</label>
+							<div class="form-price__columns">
+								<div class="form-price__column">
+									<div data-select class="form-price__select">
+										<select name="to-date" id="to">
+											<option selected value="default">To</option>
+											<option value="2">second</option>
+											<option value="3">third</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-price__column">
+									<div data-select class="form-price__select">
+										<select name="from-date" id="from">
+											<option selected value="default">From</option>
+											<option value="2">second</option>
+											<option value="3">third</option>
+											<option value="4">fourth</option>
+											<option value="5">fifth</option>
+											<option value="6">second</option>
+											<option value="7">third</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-price__row">
+							<button type="submit" class="form-price__button button">Calculate</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section id="follow" class="page__follow follow">
+				<div data-animate="0.7,true" class="follow__body">
+					<div class="follow__content">
+						<div class="follow__container">
+							<div class="follow__inner">
+								<h2 class="follow__title title">Follow your shipment via GPS</h2>
+								<div class="follow__text text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate..</p>
+								</div>
+								<a href="#" class="follow__button button">Learn more</a>
+							</div>
+						</div>
+					</div>
+					<div class="follow__images image-map">
+						<div class="image-map__item image-map__item_map">
+							<img src="img/follow/map.svg" alt="Image">
+							<div class="image-map__item-mark image-map__item-mark_one"><img src="img/follow/map-mark.svg" alt="Image"></div>
+							<div class="image-map__item-mark image-map__item-mark_two"><img src="img/follow/map-mark.svg" alt="Image"></div>
+							<div class="image-map__item-mark image-map__item-mark_three"><img src="img/follow/map-mark.svg" alt="Image"></div>
+							<div class="image-map__item-mark image-map__item-mark_four"><img src="img/follow/map-mark.svg" alt="Image"></div>
+							<div class="image-map__item-mark image-map__item-mark_five"><img src="img/follow/map-mark.svg" alt="Image"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="reviews" class="page__reviews reviews">
+				<div class="reviews__container">
+					<div data-animate="0.9,false" class="reviews__header">
+						<h2 class="reviews__title title">What our Clients Say</h2>
+						<div class="reviews__text text">
+							<p>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</div>
+					<div data-animate="0.8,false" data-tabs class="reviews__body">
+						<ul data-tabs-titles class="reviews__navigation navigation-reviews">
+							<button type="button" class="navigation-reviews__title _icon-tab-arrow _tab-active">
+								<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.jpg" alt="Adam Smith" class="navigation-reviews__user"></picture>
+								<div class="navigation-reviews__name">Adam Smith</div>
+							</button>
+							<button type="button" class="navigation-reviews__title _icon-tab-arrow ">
+								<picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg" alt="Sofia Caralino" class="navigation-reviews__user"></picture>
+								<div class="navigation-reviews__name">Sofia Caralino</div>
+							</button>
+							<button type="button" class="navigation-reviews__title _icon-tab-arrow ">
+								<picture><source srcset="img/reviews/03.webp" type="image/webp"><img src="img/reviews/03.jpg" alt="Marfie Motcast" class="navigation-reviews__user"></picture>
+								<div class="navigation-reviews__name">Marfie Motcast</div>
+							</button>
+						</ul>
+						<div data-tabs-body class="reviews__content">
+							<div class="reviews__item item-review">
+								<div class="item-review__body">
+									<div class="item-review__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									</div>
+									<div class="item-review__occupation">Web Developer</div>
+									<div data-rating data-rating-set class="item-review__rating rating">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">4.5</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__item item-review">
+								<div class="item-review__body">
+									<div class="item-review__text">
+										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, aliquam!</p>
+										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam illum blanditiis assumenda modi. Tempore, veniam?</p>
+									</div>
+									<div class="item-review__occupation">Web Designer</div>
+									<div data-rating data-rating-set class="item-review__rating rating">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__item item-review">
+								<div class="item-review__body">
+									<div class="item-review__text">
+										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam illum blanditiis assumenda modi. Tempore, veniam?</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, deserunt ullam recusandae, voluptatibus architecto dolores exercitationem sapiente pariatur non dignissimos quisquam. Sunt optio fugit architecto!</p>
+									</div>
+									<div class="item-review__occupation">Backend Developer</div>
+									<div data-rating data-rating-set class="item-review__rating rating">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.5</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__main">
+			<div class="footer__info">
+				<a href="#" class="footer__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="footer__text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..</p>
+				</div>
+			</div>
+			<nav class="footer__menu menu-footer">
+				<h3 class="menu-footer__title footer-title">Quick link</h3>
+				<ul class="menu-footer__list">
+					<li><a href="" class="menu-footer__link">Tracking</a></li>
+					<li><a href="" class="menu-footer__link">Shipping</a></li>
+					<li><a href="" class="menu-footer__link">Locations</a></li>
+					<li><a href="" class="menu-footer__link">Support</a></li>
+				</ul>
+			</nav>
+			<div class="footer__contacts contacts-footer">
+				<h3 class="contacts-footer__title footer-title">Contact us</h3>
+				<ul class="contacts-footer__list">
+					<li><a href="tel:2095550104" class="contacts-footer__link _icon-phone">(209) 555-0104</a></li>
+					<li><a href="mailto:michelle.rivera@example.com" class="contacts-footer__link _icon-mail">michelle.rivera@example.com</a></li>
+					<li><a href="#" class="contacts-footer__link _icon-location">2715 Ash Dr. San Jose, South Dakota 83475</a></li>
+				</ul>
+			</div>
+			<form action="#" method="get" class="footer__subscribe subscribe-footer">
+				<h3 class="subscribe-footer__title footer-title">Subscribe</h3>
+				<div class="subscribe-footer__row">
+					<input type="text" autocomplete="off" class="subscribe-footer__input" name="user-name" data-error='Field "name" cannot be empty' data-required name="form[]" placeholder="Name">
+				</div>
+				<div class="subscribe-footer__row">
+					<input type="text" autocomplete="off" class="subscribe-footer__input" data-error="Please enter email" data-required="email" name="form[]" placeholder="Email">
+				</div>
+				<button type="submit" class="subscribe-footer__button button">Subscribe</button>
+			</form>
+		</div>
+		<div class="footer__copy copy-footer">
+			<div class="copy-footer__text">Copyright 2023 | Uitaskca - All rights Reserved</div>
+			<ul class="copy-footer__socials socials">
+				<li class="socials__item"><a href="#" class="socials__link _icon-facebook" aria-label="Link to facebook"></a></li>
+				<li class="socials__item"><a href="#" class="socials__link _icon-twitter" aria-label="Link to twitter"></a></li>
+				<li class="socials__item"><a href="#" class="socials__link _icon-instagram" aria-label="Link to instagram"></a></li>
+				<li class="socials__item"><a href="#" class="socials__link _icon-behance" aria-label="Link to behance"></a></li>
+				<li class="socials__item"><a href="#" class="socials__link _icon-dribbble" aria-label="Link to behance"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230118084938"></script>
+</body>
+
+</html>
